@@ -1,0 +1,70 @@
+
+  //9.extract a substring
+  System.out.println("=============");
+  System.out.println("9.extract a sub string");
+  String wF= "wakanda forever";
+  String subString = wF .subString(3);//from starting index included till ending index excluded
+  System.out.println(subString);
+
+  
+  String subString2= wF .subString(3,7);//from starting index included till ending index excluded
+  System.out.println(subString2);
+  
+
+  //10.finding a character at given index
+  System.out.println("================");
+  System.out.println("10.finding a character at a given index");
+  char charAtIndex = name.charAt(6);
+  System.out.println(name.charAt(4));
+  System.out.println(charAtIndex);
+
+  //11.char array from a string
+  System.out.println("=============");
+  System.out.println("11. char array from a string");
+  char arr2[] = name.toCharArray();//string to char array
+  for(int i=0;i<arr2.length;i++);
+  {
+    System.out.println(arr2[i]);
+  }
+  //12.check if a string is empty
+  System.out.println("==================");
+  System.out.println("12.check if a string is empty");
+  String emptyString2 =new String();
+  String emptyString ="";
+  System.out.println(emptyString);
+  System.out.println(emptyString2);
+  System.out.println(emptyString.equals(""));
+  System.out.println(emptyString2.equals(""));
+  System.out.println(emptyString.isEmpty());
+  System.out.println(emptyString2.isEmpty());
+  System.out.println(emptyString.isBlank());
+  System.out.println(emptyString2.isBlank());
+
+
+   //13.comparing strings lexicographicaly -> alphabetially
+   System.out.println("==================");
+   System.out.println("13.comparing strings lexicographicaly -> alphabetially");
+   String textOne = "QHey";
+   String textTwo = "QBye";
+   System.out.println(textOne.compareTo(textTwo));//compares character by chracter
+   System.out.println(textTwo.compareTo(textOne));
+   System.out.println(textOne.compareTo(textOne));
+
+   //14.trimming white spaces from front and end
+   System.out.println("==================");
+   System.out.println("14.trimming white spaces from front and end");
+   String s5= new String ("hello               ");
+   String s6= new String ("                hello               ");
+   String s7= new String ("        hello            people           ");
+   System.out.println(s5.trim());
+   System.out.println(s6.trim()):
+   System.out.println(s7.trim());
+
+
+   //15.replacing a character
+   System.out.println("===================");
+   System.out.println("15.replacing a character");
+   System.out.println(name.replace('o','0'));
+   System.out.println(name.replace('00','0000'));
+   sc.close();
+    }
